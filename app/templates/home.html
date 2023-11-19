@@ -9,12 +9,16 @@
       <h1 class="w-[300px] md:w-[600px] lg:w-[800px] text-2xl font-medium text-[#010014] md:text-5xl lg:text-6xl">Profanity and Negative Talk Excluder Kit</h1>
     </div>
     <div class="w-full flex justify-center mb-8 lg:mb-8">
-      <p class="w-[250px] md:w-full text-sm md:text-lg font-normal text-[#010014]0 lg:text-xl sm:px-16 lg:px-48">
+      <p class="w-[250px] md:w-full text-sm md:text-lg font-normal text-[#010014]0 lg:text-2xl sm:px-16 lg:px-48">
         Elevate your online presence using <span class="font-semibold text-transparent bg-clip-text bg-gradient-to-r to-[#E364EE] from-[#46A6FF]">Pantek AI</span>
       </p>
     </div>
     <div class="w-full">
-      <button type="button" class="text-white bg-[#050708] hover:bg-[#050708]/80 focus:ring-4 focus:outline-none focus:ring-[#050708]/50 font-medium rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center">
+      <button
+        type="button"
+        id="go-to-profanity"
+        class="text-white bg-[#050708] hover:bg-[#050708]/80 focus:ring-4 focus:outline-none focus:ring-[#050708]/50 font-medium rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center transition ease-in-out delay-50"
+      >
         <p class="me-3">Try it out now!</p>
         <div class="w-auto text-black rounded-full bg-white">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
@@ -22,6 +26,25 @@
           </svg>
         </div>
       </button>
+    </div>
+    <div id="profanity-section" class="w-full h-[70vh] px-5 mt-[50vh] w-full">
+      <div class="flex justify-center mb-0 lg:mb-2">
+        <h1 class="w-[300px] md:w-[600px] lg:w-[800px] text-3xl text-[#010014] md:text-5xl lg:text-6xl font-semibold text-transparent bg-clip-text bg-gradient-to-r to-[#E364EE] from-[#46A6FF]">Pantek AI</h1>
+      </div>
+      <div class="w-full flex justify-center mb-8 lg:mb-8">
+        <p class="w-[250px] md:w-full text-sm md:text-lg font-normal text-[#010014]0 lg:text-2xl sm:px-16 lg:px-48">Type anything in the <span class="font-semibold"> text box </span> below</p>
+      </div>
+      <div class="flex justify-center mb-8 lg:mb-8">
+        <div class="w-full lg:w-[65%] p-[1em] lg:p-[1.5em] text-start bg-[#F9F9F9] rounded-lg shadow-md">
+          <textarea
+            id="profanity-detection-textarea"
+            rows="4"
+            class="block p-2.5 w-full h-[17.5em] text-sm text-gray-900 rounded-lg border border-gray-300 focus:outline-none focus:ring focus:ring-purple-300 transition ease-in-out delay-50"
+            placeholder="Write your thoughts here..."
+          ></textarea>
+          <div class="mt-[1em]"></div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
