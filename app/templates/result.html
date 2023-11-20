@@ -36,7 +36,7 @@
           <p class="w-[250px] md:w-full text-sm md:text-lg font-normal text-[#010014]0 lg:text-2xl sm:px-16 lg:px-48">Type anything in the <span class="font-semibold"> text box </span> below</p>
         </div>
         <div class="flex justify-center mb-8 lg:mb-8">
-          <div class="w-full lg:w-[65%] p-[1em] lg:p-[1.5em] text-start bg-[#F9F9F9] rounded-lg shadow-md">
+          <div class="w-full lg:w-[65%] p-[1em] lg:p-[1.5em] text-start bg-[{{ bg_color }}] rounded-lg shadow-md">
             <textarea
               id="profanity-detection-textarea"
               name="input_text"
@@ -44,18 +44,21 @@
               class="block p-2.5 w-full h-[17.5em] text-[16px] font-light text-gray-900 rounded-lg border border-gray-300 focus:outline-none focus:ring focus:ring-purple-300 transition ease-in-out delay-50"
               placeholder="Write your thoughts here..."
               required="required"
-            ></textarea>
+            >{{ user_input}}
+        </textarea>
             <div class="mt-[1em]">
-              <button
-                type="submit"
-                class="text-white  bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 inline-flex items-center transition ease-in-out delay-50"
-              >
-                <p>Detect Profanity</p>
-              </button>
             </div>
-            <div class="mt-[1em] text-black">
+            <div class="mt-[1em] text-black font-medium">
                 <p>{{ prediction_text }}</p>
             </div>
+            <div class="w-full mt-[1em]">
+                 <button
+                   type="submit"
+                   class="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 inline-flex items-center transition ease-in-out delay-50"
+                 >
+                   <p>Detect Profanity</p>
+                 </button>
+               </div>
           </div>
         </div>
       </div>
@@ -63,4 +66,9 @@
   </div>
 </section>
 
+<script>
+    window.onload = function() {
+        window.scrollTo(0, document.body.scrollHeight);
+    };
+</script>
 {% endblock %}
