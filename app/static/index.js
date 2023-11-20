@@ -4,3 +4,7 @@ document.getElementById("go-to-profanity").addEventListener("click", function ()
     behavior: "smooth",
   });
 });
+
+function goToHome() {
+  window.location.href = "/";
+}
