@@ -1,3 +1,101 @@
-{% extends "base.html" %} {% block title %} PANTEK - Profanity and Negative Talk Excluder Kit {% endblock %} {% block content %}
-<h1>WELCOME TO PANTEK</h1>
+{% extends "base.html" %} {% block title %} PANTEK - Profanity and Negative Talk
+Excluder Kit {% endblock %} {% block content %}
+
+<section>
+  <div class="w-full text-center py-24 lg:py-56">
+    <div class="w-full flex justify-center mb-4 lg:mb-8">
+      <img
+        class="w-[75px] lg:w-[125px]"
+        src="{{ url_for('static', filename='../static/assets/pantek_hero_logo.png') }}"
+        alt="Pantek Logo"
+      />
+    </div>
+    <div class="w-full flex justify-center mb-4 lg:mb-8">
+      <h1
+        class="w-[300px] md:w-[600px] lg:w-[800px] text-2xl font-medium text-[#010014] md:text-5xl lg:text-6xl"
+      >
+        Profanity and Negative Talk Excluder Kit
+      </h1>
+    </div>
+    <div class="w-full flex justify-center mb-8 lg:mb-8">
+      <p
+        class="w-[250px] md:w-full text-sm md:text-lg font-normal text-[#010014]0 lg:text-2xl sm:px-16 lg:px-48"
+      >
+        Elevate your online presence using
+        <span
+          class="font-semibold text-transparent bg-clip-text bg-gradient-to-r to-[#E364EE] from-[#46A6FF]"
+          >Pantek AI</span
+        >
+      </p>
+    </div>
+    <div class="w-full">
+      <button
+        type="button"
+        id="go-to-profanity"
+        class="text-white bg-[#050708] hover:bg-[#050708]/80 focus:ring-4 focus:outline-none focus:ring-[#050708]/50 font-medium rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center transition ease-in-out delay-50"
+      >
+        <p class="me-3">Try it out now!</p>
+        <div class="w-auto text-black rounded-full bg-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+            class="w-5 h-5"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10 5a.75.75 0 01.75.75v6.638l1.96-2.158a.75.75 0 111.08 1.04l-3.25 3.5a.75.75 0 01-1.08 0l-3.25-3.5a.75.75 0 111.08-1.04l1.96 2.158V5.75A.75.75 0 0110 5z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+    <form action="{{ url_for('api.predict') }}" method="post">
+      <div id="profanity-section" class="w-full h-[70vh] px-5 mt-[50vh] w-full">
+        <div class="flex justify-center mb-0 lg:mb-2">
+          <h1
+            class="w-[300px] md:w-[600px] lg:w-[800px] text-3xl text-[#010014] md:text-5xl lg:text-6xl font-semibold text-transparent bg-clip-text bg-gradient-to-r to-[#E364EE] from-[#46A6FF]"
+          >
+            Pantek AI
+          </h1>
+        </div>
+        <div class="w-full flex justify-center mb-8 lg:mb-8">
+          <p
+            class="w-[250px] md:w-full text-sm md:text-lg font-normal text-[#010014]0 lg:text-2xl sm:px-16 lg:px-48"
+          >
+            Type anything in the
+            <span class="font-semibold"> text box </span> below
+          </p>
+        </div>
+        <div class="flex justify-center mb-8 lg:mb-8">
+          <div
+            class="w-full lg:w-[65%] p-[1em] lg:p-[1.5em] text-start bg-[#F9F9F9] rounded-lg shadow-md"
+          >
+            <textarea
+              id="profanity-detection-textarea"
+              name="input_text"
+              rows="4"
+              class="block p-2.5 w-full h-[17.5em] text-[16px] font-light text-gray-900 rounded-lg border border-gray-300 focus:outline-none focus:ring focus:ring-purple-300 transition ease-in-out delay-50"
+              placeholder="Write your thoughts here..."
+              required="required"
+            ></textarea>
+            <div class="mt-[1em]">
+              <button
+                type="submit"
+                class="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 inline-flex items-center transition ease-in-out delay-50"
+              >
+                <p>Detect Profanity</p>
+              </button>
+            </div>
+            <div class="mt-[1em] text-black">
+              <p>{{ prediction_text }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+
 {% endblock %}

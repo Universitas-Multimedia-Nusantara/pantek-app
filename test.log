@@ -1,0 +1,536 @@
+2023-11-22 01:03:34,294 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-22 01:03:34,296 - INFO - [33mPress CTRL+C to quit[0m
+2023-11-22 01:03:34,304 - INFO -  * Restarting with stat
+2023-11-22 01:03:35,256 - WARNING -  * Debugger is active!
+2023-11-22 01:03:35,276 - INFO -  * Debugger PIN: 662-101-655
+2023-11-22 01:03:48,836 - INFO - 127.0.0.1 - - [22/Nov/2023 01:03:48] "GET / HTTP/1.1" 200 -
+2023-11-22 01:03:49,063 - INFO - 127.0.0.1 - - [22/Nov/2023 01:03:49] "GET /static/index.css HTTP/1.1" 200 -
+2023-11-22 01:03:49,071 - INFO - 127.0.0.1 - - [22/Nov/2023 01:03:49] "GET /static/assets/pantek_logo.png HTTP/1.1" 200 -
+2023-11-22 01:03:49,266 - INFO - 127.0.0.1 - - [22/Nov/2023 01:03:49] "GET /static/assets/pantek_hero_logo.png HTTP/1.1" 200 -
+2023-11-22 01:03:49,579 - INFO - 127.0.0.1 - - [22/Nov/2023 01:03:49] "GET /static/index.js HTTP/1.1" 200 -
+2023-11-22 01:03:50,147 - INFO - 127.0.0.1 - - [22/Nov/2023 01:03:50] "GET /static/assets/bg_pattern.png HTTP/1.1" 200 -
+2023-11-22 01:03:50,918 - INFO - 127.0.0.1 - - [22/Nov/2023 01:03:50] "GET /static/assets/pantek_logo_ico.png HTTP/1.1" 200 -
+2023-11-22 01:03:56,206 - INFO - 127.0.0.1 - - [22/Nov/2023 01:03:56] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-11-22 01:03:56,501 - INFO - 127.0.0.1 - - [22/Nov/2023 01:03:56] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-11-22 01:03:56,631 - INFO - 127.0.0.1 - - [22/Nov/2023 01:03:56] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-11-22 01:03:56,998 - INFO - 127.0.0.1 - - [22/Nov/2023 01:03:56] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-11-22 01:03:57,255 - INFO - 127.0.0.1 - - [22/Nov/2023 01:03:57] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-22 01:06:04,822 - INFO -  * Detected change in 'c:\\Users\\naufa\\Documents\\KULIAH\\Semester 5\\UAS\\Machine Learning\\pantek\\app\\api.py', reloading
+2023-11-22 01:06:04,955 - INFO -  * Restarting with stat
+2023-11-22 01:06:05,960 - WARNING -  * Debugger is active!
+2023-11-22 01:06:05,980 - INFO -  * Debugger PIN: 662-101-655
+2023-11-22 01:06:08,791 - INFO - 127.0.0.1 - - [22/Nov/2023 01:06:08] "[36mGET /static/assets/pantek_logo_ico.png HTTP/1.1[0m" 304 -
+2023-11-22 01:06:12,440 - INFO - 127.0.0.1 - - [22/Nov/2023 01:06:12] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-11-22 01:06:12,704 - INFO - 127.0.0.1 - - [22/Nov/2023 01:06:12] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-11-22 01:06:12,860 - INFO - 127.0.0.1 - - [22/Nov/2023 01:06:12] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-11-22 01:06:13,187 - INFO - 127.0.0.1 - - [22/Nov/2023 01:06:13] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-22 01:06:13,450 - INFO - 127.0.0.1 - - [22/Nov/2023 01:06:13] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-22 01:08:56,011 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-22 01:08:56,011 - INFO - [33mPress CTRL+C to quit[0m
+2023-11-22 01:08:56,021 - INFO -  * Restarting with stat
+2023-11-22 01:08:56,852 - WARNING -  * Debugger is active!
+2023-11-22 01:08:56,866 - INFO -  * Debugger PIN: 662-101-655
+2023-11-22 01:09:10,560 - INFO - Data received: <generator object MultiDict.values at 0x00000185A13EE0C0>
+2023-11-22 01:09:10,840 - INFO - Prediction: 0
+2023-11-22 01:09:10,863 - INFO - 127.0.0.1 - - [22/Nov/2023 01:09:10] "POST / HTTP/1.1" 200 -
+2023-11-22 01:09:11,096 - INFO - 127.0.0.1 - - [22/Nov/2023 01:09:11] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 01:09:11,101 - INFO - 127.0.0.1 - - [22/Nov/2023 01:09:11] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 01:09:11,245 - INFO - 127.0.0.1 - - [22/Nov/2023 01:09:11] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 01:09:11,301 - INFO - 127.0.0.1 - - [22/Nov/2023 01:09:11] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 01:09:11,477 - INFO - 127.0.0.1 - - [22/Nov/2023 01:09:11] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-11-22 01:09:11,804 - INFO - 127.0.0.1 - - [22/Nov/2023 01:09:11] "[36mGET /static/assets/pantek_logo_ico.png HTTP/1.1[0m" 304 -
+2023-11-22 01:09:17,465 - INFO - Data received: <generator object MultiDict.values at 0x00000185A26E6C20>
+2023-11-22 01:09:17,592 - INFO - Prediction: 1
+2023-11-22 01:09:17,605 - INFO - 127.0.0.1 - - [22/Nov/2023 01:09:17] "POST / HTTP/1.1" 200 -
+2023-11-22 01:09:17,771 - INFO - 127.0.0.1 - - [22/Nov/2023 01:09:17] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 01:09:18,029 - INFO - 127.0.0.1 - - [22/Nov/2023 01:09:18] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 01:09:18,030 - INFO - 127.0.0.1 - - [22/Nov/2023 01:09:18] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 01:09:18,075 - INFO - 127.0.0.1 - - [22/Nov/2023 01:09:18] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 01:09:18,229 - INFO - 127.0.0.1 - - [22/Nov/2023 01:09:18] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-11-22 01:09:25,948 - INFO - Data received: <generator object MultiDict.values at 0x00000185A1494AD0>
+2023-11-22 01:09:26,037 - INFO - Prediction: 1
+2023-11-22 01:09:26,045 - INFO - 127.0.0.1 - - [22/Nov/2023 01:09:26] "POST / HTTP/1.1" 200 -
+2023-11-22 01:09:26,115 - INFO - 127.0.0.1 - - [22/Nov/2023 01:09:26] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 01:09:26,214 - INFO - 127.0.0.1 - - [22/Nov/2023 01:09:26] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 01:09:26,434 - INFO - 127.0.0.1 - - [22/Nov/2023 01:09:26] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 01:09:26,435 - INFO - 127.0.0.1 - - [22/Nov/2023 01:09:26] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 01:09:26,603 - INFO - 127.0.0.1 - - [22/Nov/2023 01:09:26] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-11-22 01:09:35,631 - INFO - Data received: <generator object MultiDict.values at 0x00000185A1496CF0>
+2023-11-22 01:09:35,730 - INFO - Prediction: 1
+2023-11-22 01:09:35,743 - INFO - 127.0.0.1 - - [22/Nov/2023 01:09:35] "POST / HTTP/1.1" 200 -
+2023-11-22 01:09:35,817 - INFO - 127.0.0.1 - - [22/Nov/2023 01:09:35] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 01:09:35,895 - INFO - 127.0.0.1 - - [22/Nov/2023 01:09:35] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 01:09:36,132 - INFO - 127.0.0.1 - - [22/Nov/2023 01:09:36] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 01:09:36,134 - INFO - 127.0.0.1 - - [22/Nov/2023 01:09:36] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 01:09:36,285 - INFO - 127.0.0.1 - - [22/Nov/2023 01:09:36] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-11-22 01:09:44,702 - INFO - Data received: <generator object MultiDict.values at 0x00000185A26E6B50>
+2023-11-22 01:09:44,809 - INFO - Prediction: 0
+2023-11-22 01:09:44,819 - INFO - 127.0.0.1 - - [22/Nov/2023 01:09:44] "POST / HTTP/1.1" 200 -
+2023-11-22 01:09:44,890 - INFO - 127.0.0.1 - - [22/Nov/2023 01:09:44] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 01:09:44,950 - INFO - 127.0.0.1 - - [22/Nov/2023 01:09:44] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 01:09:45,200 - INFO - 127.0.0.1 - - [22/Nov/2023 01:09:45] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 01:09:45,206 - INFO - 127.0.0.1 - - [22/Nov/2023 01:09:45] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 01:09:45,370 - INFO - 127.0.0.1 - - [22/Nov/2023 01:09:45] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-11-22 01:10:16,561 - INFO - Data received: <generator object MultiDict.values at 0x00000185A1496A80>
+2023-11-22 01:10:16,642 - INFO - Prediction: 0
+2023-11-22 01:10:16,650 - INFO - 127.0.0.1 - - [22/Nov/2023 01:10:16] "POST / HTTP/1.1" 200 -
+2023-11-22 01:10:16,722 - INFO - 127.0.0.1 - - [22/Nov/2023 01:10:16] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 01:10:16,826 - INFO - 127.0.0.1 - - [22/Nov/2023 01:10:16] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 01:10:17,030 - INFO - 127.0.0.1 - - [22/Nov/2023 01:10:17] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 01:10:17,032 - INFO - 127.0.0.1 - - [22/Nov/2023 01:10:17] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 01:10:17,215 - INFO - 127.0.0.1 - - [22/Nov/2023 01:10:17] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-11-22 01:10:23,177 - INFO - Data received: <generator object MultiDict.values at 0x00000185A1494D40>
+2023-11-22 01:10:23,284 - INFO - Prediction: 0
+2023-11-22 01:10:23,294 - INFO - 127.0.0.1 - - [22/Nov/2023 01:10:23] "POST / HTTP/1.1" 200 -
+2023-11-22 01:10:23,368 - INFO - 127.0.0.1 - - [22/Nov/2023 01:10:23] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 01:10:23,441 - INFO - 127.0.0.1 - - [22/Nov/2023 01:10:23] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 01:10:23,686 - INFO - 127.0.0.1 - - [22/Nov/2023 01:10:23] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 01:10:23,686 - INFO - 127.0.0.1 - - [22/Nov/2023 01:10:23] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 01:10:23,845 - INFO - 127.0.0.1 - - [22/Nov/2023 01:10:23] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-11-22 01:10:32,346 - INFO - Data received: <generator object MultiDict.values at 0x00000185A14979F0>
+2023-11-22 01:10:32,441 - INFO - Prediction: 0
+2023-11-22 01:10:32,452 - INFO - 127.0.0.1 - - [22/Nov/2023 01:10:32] "POST / HTTP/1.1" 200 -
+2023-11-22 01:10:32,523 - INFO - 127.0.0.1 - - [22/Nov/2023 01:10:32] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 01:10:32,614 - INFO - 127.0.0.1 - - [22/Nov/2023 01:10:32] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 01:10:32,837 - INFO - 127.0.0.1 - - [22/Nov/2023 01:10:32] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 01:10:32,838 - INFO - 127.0.0.1 - - [22/Nov/2023 01:10:32] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 01:10:32,994 - INFO - 127.0.0.1 - - [22/Nov/2023 01:10:32] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-11-22 08:26:18,923 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-22 08:26:18,927 - INFO - [33mPress CTRL+C to quit[0m
+2023-11-22 08:26:18,933 - INFO -  * Restarting with stat
+2023-11-22 08:26:19,619 - WARNING -  * Debugger is active!
+2023-11-22 08:26:19,630 - INFO -  * Debugger PIN: 662-101-655
+2023-11-22 08:26:29,907 - INFO - 127.0.0.1 - - [22/Nov/2023 08:26:29] "GET / HTTP/1.1" 200 -
+2023-11-22 08:26:30,205 - INFO - 127.0.0.1 - - [22/Nov/2023 08:26:30] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 08:26:30,257 - INFO - 127.0.0.1 - - [22/Nov/2023 08:26:30] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:26:30,258 - INFO - 127.0.0.1 - - [22/Nov/2023 08:26:30] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:26:30,263 - INFO - 127.0.0.1 - - [22/Nov/2023 08:26:30] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 08:26:31,630 - INFO - 127.0.0.1 - - [22/Nov/2023 08:26:31] "[36mGET /static/assets/pantek_logo_ico.png HTTP/1.1[0m" 304 -
+2023-11-22 08:26:37,548 - INFO - 127.0.0.1 - - [22/Nov/2023 08:26:37] "GET / HTTP/1.1" 200 -
+2023-11-22 08:26:37,582 - INFO - 127.0.0.1 - - [22/Nov/2023 08:26:37] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 08:26:37,811 - INFO - 127.0.0.1 - - [22/Nov/2023 08:26:37] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:26:37,889 - INFO - 127.0.0.1 - - [22/Nov/2023 08:26:37] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:26:38,123 - INFO - 127.0.0.1 - - [22/Nov/2023 08:26:38] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 08:26:43,852 - INFO - 127.0.0.1 - - [22/Nov/2023 08:26:43] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 08:28:16,913 - INFO - 127.0.0.1 - - [22/Nov/2023 08:28:16] "GET / HTTP/1.1" 200 -
+2023-11-22 08:28:16,985 - INFO - 127.0.0.1 - - [22/Nov/2023 08:28:16] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 08:28:17,145 - INFO - 127.0.0.1 - - [22/Nov/2023 08:28:17] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:28:17,302 - INFO - 127.0.0.1 - - [22/Nov/2023 08:28:17] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:28:17,469 - INFO - 127.0.0.1 - - [22/Nov/2023 08:28:17] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 08:28:23,925 - INFO - 127.0.0.1 - - [22/Nov/2023 08:28:23] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 08:29:02,790 - INFO - 127.0.0.1 - - [22/Nov/2023 08:29:02] "GET / HTTP/1.1" 200 -
+2023-11-22 08:29:02,857 - INFO - 127.0.0.1 - - [22/Nov/2023 08:29:02] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 08:29:03,031 - INFO - 127.0.0.1 - - [22/Nov/2023 08:29:03] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:29:03,179 - INFO - 127.0.0.1 - - [22/Nov/2023 08:29:03] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:29:03,179 - INFO - 127.0.0.1 - - [22/Nov/2023 08:29:03] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 08:29:03,538 - INFO - 127.0.0.1 - - [22/Nov/2023 08:29:03] "[36mGET /static/assets/pantek_logo_ico.png HTTP/1.1[0m" 304 -
+2023-11-22 08:29:15,362 - INFO - 127.0.0.1 - - [22/Nov/2023 08:29:15] "GET / HTTP/1.1" 200 -
+2023-11-22 08:29:15,432 - INFO - 127.0.0.1 - - [22/Nov/2023 08:29:15] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 08:29:15,598 - INFO - 127.0.0.1 - - [22/Nov/2023 08:29:15] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:29:15,744 - INFO - 127.0.0.1 - - [22/Nov/2023 08:29:15] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:29:15,760 - INFO - 127.0.0.1 - - [22/Nov/2023 08:29:15] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 08:29:16,102 - INFO - 127.0.0.1 - - [22/Nov/2023 08:29:16] "[36mGET /static/assets/pantek_logo_ico.png HTTP/1.1[0m" 304 -
+2023-11-22 08:30:08,585 - INFO - Data received: <generator object MultiDict.values at 0x0000020ABF6FE330>
+2023-11-22 08:30:08,723 - INFO - Prediction: 0
+2023-11-22 08:30:08,740 - INFO - 127.0.0.1 - - [22/Nov/2023 08:30:08] "POST / HTTP/1.1" 200 -
+2023-11-22 08:30:08,806 - INFO - 127.0.0.1 - - [22/Nov/2023 08:30:08] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 08:30:08,816 - INFO - 127.0.0.1 - - [22/Nov/2023 08:30:08] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:30:09,123 - INFO - 127.0.0.1 - - [22/Nov/2023 08:30:09] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:30:09,138 - INFO - 127.0.0.1 - - [22/Nov/2023 08:30:09] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 08:30:24,752 - INFO - Data received: <generator object MultiDict.values at 0x0000020ABF7B1560>
+2023-11-22 08:30:24,842 - INFO - Prediction: 0
+2023-11-22 08:30:24,854 - INFO - 127.0.0.1 - - [22/Nov/2023 08:30:24] "POST / HTTP/1.1" 200 -
+2023-11-22 08:30:24,921 - INFO - 127.0.0.1 - - [22/Nov/2023 08:30:24] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 08:30:25,007 - INFO - 127.0.0.1 - - [22/Nov/2023 08:30:25] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:30:25,234 - INFO - 127.0.0.1 - - [22/Nov/2023 08:30:25] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:30:25,324 - INFO - 127.0.0.1 - - [22/Nov/2023 08:30:25] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 08:30:29,997 - INFO - 127.0.0.1 - - [22/Nov/2023 08:30:29] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-11-22 08:30:30,266 - INFO - 127.0.0.1 - - [22/Nov/2023 08:30:30] "[36mGET /static/assets/pantek_logo_ico.png HTTP/1.1[0m" 304 -
+2023-11-22 08:30:50,332 - INFO - Data received: <generator object MultiDict.values at 0x0000020ABF7B3D30>
+2023-11-22 08:30:50,443 - INFO - Prediction: 0
+2023-11-22 08:30:50,455 - INFO - 127.0.0.1 - - [22/Nov/2023 08:30:50] "POST / HTTP/1.1" 200 -
+2023-11-22 08:30:50,640 - INFO - 127.0.0.1 - - [22/Nov/2023 08:30:50] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 08:30:50,837 - INFO - 127.0.0.1 - - [22/Nov/2023 08:30:50] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:30:50,837 - INFO - 127.0.0.1 - - [22/Nov/2023 08:30:50] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:30:50,841 - INFO - 127.0.0.1 - - [22/Nov/2023 08:30:50] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 08:30:51,041 - INFO - 127.0.0.1 - - [22/Nov/2023 08:30:51] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-11-22 08:31:18,195 - INFO - Data received: <generator object MultiDict.values at 0x0000020ABF7B20C0>
+2023-11-22 08:31:18,318 - INFO - Prediction: 1
+2023-11-22 08:31:18,327 - INFO - 127.0.0.1 - - [22/Nov/2023 08:31:18] "POST / HTTP/1.1" 200 -
+2023-11-22 08:31:18,393 - INFO - 127.0.0.1 - - [22/Nov/2023 08:31:18] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 08:31:18,444 - INFO - 127.0.0.1 - - [22/Nov/2023 08:31:18] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:31:18,719 - INFO - 127.0.0.1 - - [22/Nov/2023 08:31:18] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:31:18,719 - INFO - 127.0.0.1 - - [22/Nov/2023 08:31:18] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 08:31:18,905 - INFO - 127.0.0.1 - - [22/Nov/2023 08:31:18] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-11-22 08:33:16,804 - INFO - Data received: <generator object MultiDict.values at 0x0000020ABF7B0520>
+2023-11-22 08:33:16,910 - INFO - Prediction: 0
+2023-11-22 08:33:16,923 - INFO - 127.0.0.1 - - [22/Nov/2023 08:33:16] "POST / HTTP/1.1" 200 -
+2023-11-22 08:33:17,015 - INFO - 127.0.0.1 - - [22/Nov/2023 08:33:17] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 08:33:17,051 - INFO - 127.0.0.1 - - [22/Nov/2023 08:33:17] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:33:17,336 - INFO - 127.0.0.1 - - [22/Nov/2023 08:33:17] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:33:17,337 - INFO - 127.0.0.1 - - [22/Nov/2023 08:33:17] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 08:33:17,529 - INFO - 127.0.0.1 - - [22/Nov/2023 08:33:17] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-11-22 08:33:47,594 - INFO - Data received: <generator object MultiDict.values at 0x0000020ABF7B5B10>
+2023-11-22 08:33:47,685 - INFO - Prediction: 1
+2023-11-22 08:33:47,706 - INFO - 127.0.0.1 - - [22/Nov/2023 08:33:47] "POST / HTTP/1.1" 200 -
+2023-11-22 08:33:47,782 - INFO - 127.0.0.1 - - [22/Nov/2023 08:33:47] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 08:33:47,868 - INFO - 127.0.0.1 - - [22/Nov/2023 08:33:47] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:33:48,092 - INFO - 127.0.0.1 - - [22/Nov/2023 08:33:48] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:33:48,154 - INFO - 127.0.0.1 - - [22/Nov/2023 08:33:48] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 08:33:48,304 - INFO - 127.0.0.1 - - [22/Nov/2023 08:33:48] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-11-22 08:33:57,181 - INFO - Data received: <generator object MultiDict.values at 0x0000020ABF7B20C0>
+2023-11-22 08:33:57,329 - INFO - Prediction: 1
+2023-11-22 08:33:57,342 - INFO - 127.0.0.1 - - [22/Nov/2023 08:33:57] "POST / HTTP/1.1" 200 -
+2023-11-22 08:33:57,418 - INFO - 127.0.0.1 - - [22/Nov/2023 08:33:57] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 08:33:57,443 - INFO - 127.0.0.1 - - [22/Nov/2023 08:33:57] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:33:57,742 - INFO - 127.0.0.1 - - [22/Nov/2023 08:33:57] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:33:57,744 - INFO - 127.0.0.1 - - [22/Nov/2023 08:33:57] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 08:33:57,897 - INFO - 127.0.0.1 - - [22/Nov/2023 08:33:57] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-11-22 08:34:09,171 - INFO - Data received: <generator object MultiDict.values at 0x0000020ABF7B2670>
+2023-11-22 08:34:09,278 - INFO - Prediction: 1
+2023-11-22 08:34:09,294 - INFO - 127.0.0.1 - - [22/Nov/2023 08:34:09] "POST / HTTP/1.1" 200 -
+2023-11-22 08:34:09,377 - INFO - 127.0.0.1 - - [22/Nov/2023 08:34:09] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 08:34:09,424 - INFO - 127.0.0.1 - - [22/Nov/2023 08:34:09] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:34:09,701 - INFO - 127.0.0.1 - - [22/Nov/2023 08:34:09] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:34:09,704 - INFO - 127.0.0.1 - - [22/Nov/2023 08:34:09] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 08:34:09,847 - INFO - 127.0.0.1 - - [22/Nov/2023 08:34:09] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-11-22 08:34:32,386 - INFO - Data received: <generator object MultiDict.values at 0x0000020ABF7B41E0>
+2023-11-22 08:34:32,483 - INFO - Prediction: 1
+2023-11-22 08:34:32,495 - INFO - 127.0.0.1 - - [22/Nov/2023 08:34:32] "POST / HTTP/1.1" 200 -
+2023-11-22 08:34:32,564 - INFO - 127.0.0.1 - - [22/Nov/2023 08:34:32] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 08:34:32,637 - INFO - 127.0.0.1 - - [22/Nov/2023 08:34:32] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:34:32,888 - INFO - 127.0.0.1 - - [22/Nov/2023 08:34:32] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-11-22 08:34:32,889 - INFO - 127.0.0.1 - - [22/Nov/2023 08:34:32] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:34:33,041 - INFO - 127.0.0.1 - - [22/Nov/2023 08:34:33] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 08:34:46,554 - INFO - Data received: <generator object MultiDict.values at 0x0000020ABF7B76B0>
+2023-11-22 08:34:46,645 - INFO - Prediction: 0
+2023-11-22 08:34:46,654 - INFO - 127.0.0.1 - - [22/Nov/2023 08:34:46] "POST / HTTP/1.1" 200 -
+2023-11-22 08:34:46,735 - INFO - 127.0.0.1 - - [22/Nov/2023 08:34:46] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 08:34:46,811 - INFO - 127.0.0.1 - - [22/Nov/2023 08:34:46] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:34:47,049 - INFO - 127.0.0.1 - - [22/Nov/2023 08:34:47] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:34:47,049 - INFO - 127.0.0.1 - - [22/Nov/2023 08:34:47] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 08:34:47,208 - INFO - 127.0.0.1 - - [22/Nov/2023 08:34:47] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-11-22 08:34:57,516 - INFO - Data received: <generator object MultiDict.values at 0x0000020ABF7B5B10>
+2023-11-22 08:34:57,608 - INFO - Prediction: 1
+2023-11-22 08:34:57,618 - INFO - 127.0.0.1 - - [22/Nov/2023 08:34:57] "POST / HTTP/1.1" 200 -
+2023-11-22 08:34:57,690 - INFO - 127.0.0.1 - - [22/Nov/2023 08:34:57] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 08:34:57,773 - INFO - 127.0.0.1 - - [22/Nov/2023 08:34:57] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:34:58,009 - INFO - 127.0.0.1 - - [22/Nov/2023 08:34:58] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:34:58,012 - INFO - 127.0.0.1 - - [22/Nov/2023 08:34:58] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 08:34:58,174 - INFO - 127.0.0.1 - - [22/Nov/2023 08:34:58] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-11-22 08:35:12,086 - INFO - Data received: <generator object MultiDict.values at 0x0000020ABF7B2190>
+2023-11-22 08:35:12,182 - INFO - Prediction: 1
+2023-11-22 08:35:12,194 - INFO - 127.0.0.1 - - [22/Nov/2023 08:35:12] "POST / HTTP/1.1" 200 -
+2023-11-22 08:35:12,276 - INFO - 127.0.0.1 - - [22/Nov/2023 08:35:12] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 08:35:12,348 - INFO - 127.0.0.1 - - [22/Nov/2023 08:35:12] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:35:12,585 - INFO - 127.0.0.1 - - [22/Nov/2023 08:35:12] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:35:12,589 - INFO - 127.0.0.1 - - [22/Nov/2023 08:35:12] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 08:35:12,766 - INFO - 127.0.0.1 - - [22/Nov/2023 08:35:12] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-11-22 08:35:21,221 - INFO - Data received: <generator object MultiDict.values at 0x0000020ABF7B06C0>
+2023-11-22 08:35:21,315 - INFO - Prediction: 1
+2023-11-22 08:35:21,328 - INFO - 127.0.0.1 - - [22/Nov/2023 08:35:21] "POST / HTTP/1.1" 200 -
+2023-11-22 08:35:21,399 - INFO - 127.0.0.1 - - [22/Nov/2023 08:35:21] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 08:35:21,481 - INFO - 127.0.0.1 - - [22/Nov/2023 08:35:21] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:35:21,718 - INFO - 127.0.0.1 - - [22/Nov/2023 08:35:21] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:35:21,718 - INFO - 127.0.0.1 - - [22/Nov/2023 08:35:21] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 08:35:21,884 - INFO - 127.0.0.1 - - [22/Nov/2023 08:35:21] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-11-22 08:41:12,890 - INFO - Data received: <generator object MultiDict.values at 0x0000020ABF7B1970>
+2023-11-22 08:41:13,044 - INFO - Prediction: 1
+2023-11-22 08:41:13,059 - INFO - 127.0.0.1 - - [22/Nov/2023 08:41:13] "POST / HTTP/1.1" 200 -
+2023-11-22 08:41:13,144 - INFO - 127.0.0.1 - - [22/Nov/2023 08:41:13] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 08:41:13,165 - INFO - 127.0.0.1 - - [22/Nov/2023 08:41:13] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:41:13,478 - INFO - 127.0.0.1 - - [22/Nov/2023 08:41:13] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 08:41:13,479 - INFO - 127.0.0.1 - - [22/Nov/2023 08:41:13] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:41:13,641 - INFO - 127.0.0.1 - - [22/Nov/2023 08:41:13] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-11-22 08:41:29,253 - INFO - Data received: <generator object MultiDict.values at 0x0000020ABF7B32A0>
+2023-11-22 08:41:29,358 - INFO - Prediction: 0
+2023-11-22 08:41:29,369 - INFO - 127.0.0.1 - - [22/Nov/2023 08:41:29] "POST / HTTP/1.1" 200 -
+2023-11-22 08:41:29,442 - INFO - 127.0.0.1 - - [22/Nov/2023 08:41:29] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 08:41:29,512 - INFO - 127.0.0.1 - - [22/Nov/2023 08:41:29] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:41:29,757 - INFO - 127.0.0.1 - - [22/Nov/2023 08:41:29] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:41:29,817 - INFO - 127.0.0.1 - - [22/Nov/2023 08:41:29] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 08:41:30,010 - INFO - 127.0.0.1 - - [22/Nov/2023 08:41:30] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-11-22 08:41:38,294 - INFO - Data received: <generator object MultiDict.values at 0x0000020ABF7B6C20>
+2023-11-22 08:41:38,392 - INFO - Prediction: 1
+2023-11-22 08:41:38,402 - INFO - 127.0.0.1 - - [22/Nov/2023 08:41:38] "POST / HTTP/1.1" 200 -
+2023-11-22 08:41:38,481 - INFO - 127.0.0.1 - - [22/Nov/2023 08:41:38] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 08:41:38,546 - INFO - 127.0.0.1 - - [22/Nov/2023 08:41:38] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:41:38,802 - INFO - 127.0.0.1 - - [22/Nov/2023 08:41:38] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:41:38,802 - INFO - 127.0.0.1 - - [22/Nov/2023 08:41:38] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 08:41:38,964 - INFO - 127.0.0.1 - - [22/Nov/2023 08:41:38] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-11-22 08:41:51,781 - INFO - Data received: <generator object MultiDict.values at 0x0000020ABF7B75E0>
+2023-11-22 08:41:51,866 - INFO - Prediction: 0
+2023-11-22 08:41:51,890 - INFO - 127.0.0.1 - - [22/Nov/2023 08:41:51] "POST / HTTP/1.1" 200 -
+2023-11-22 08:41:51,972 - INFO - 127.0.0.1 - - [22/Nov/2023 08:41:51] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 08:41:52,025 - INFO - 127.0.0.1 - - [22/Nov/2023 08:41:52] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:41:52,281 - INFO - 127.0.0.1 - - [22/Nov/2023 08:41:52] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:41:52,288 - INFO - 127.0.0.1 - - [22/Nov/2023 08:41:52] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 08:41:52,443 - INFO - 127.0.0.1 - - [22/Nov/2023 08:41:52] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-11-22 08:42:01,014 - INFO - Data received: <generator object MultiDict.values at 0x0000020ABF7B5E50>
+2023-11-22 08:42:01,121 - INFO - Prediction: 1
+2023-11-22 08:42:01,129 - INFO - 127.0.0.1 - - [22/Nov/2023 08:42:01] "POST / HTTP/1.1" 200 -
+2023-11-22 08:42:01,202 - INFO - 127.0.0.1 - - [22/Nov/2023 08:42:01] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 08:42:01,276 - INFO - 127.0.0.1 - - [22/Nov/2023 08:42:01] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:42:01,523 - INFO - 127.0.0.1 - - [22/Nov/2023 08:42:01] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:42:01,523 - INFO - 127.0.0.1 - - [22/Nov/2023 08:42:01] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 08:42:01,713 - INFO - 127.0.0.1 - - [22/Nov/2023 08:42:01] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-11-22 08:42:14,139 - INFO - Data received: <generator object MultiDict.values at 0x0000020ABF7B20C0>
+2023-11-22 08:42:14,229 - INFO - Prediction: 1
+2023-11-22 08:42:14,237 - INFO - 127.0.0.1 - - [22/Nov/2023 08:42:14] "POST / HTTP/1.1" 200 -
+2023-11-22 08:42:14,310 - INFO - 127.0.0.1 - - [22/Nov/2023 08:42:14] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 08:42:14,399 - INFO - 127.0.0.1 - - [22/Nov/2023 08:42:14] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:42:14,631 - INFO - 127.0.0.1 - - [22/Nov/2023 08:42:14] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:42:14,631 - INFO - 127.0.0.1 - - [22/Nov/2023 08:42:14] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 08:42:14,773 - INFO - 127.0.0.1 - - [22/Nov/2023 08:42:14] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-11-22 08:42:49,109 - INFO - Data received: <generator object MultiDict.values at 0x0000020ABF7B2F60>
+2023-11-22 08:42:49,200 - INFO - Prediction: 0
+2023-11-22 08:42:49,218 - INFO - 127.0.0.1 - - [22/Nov/2023 08:42:49] "POST / HTTP/1.1" 200 -
+2023-11-22 08:42:49,305 - INFO - 127.0.0.1 - - [22/Nov/2023 08:42:49] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 08:42:49,359 - INFO - 127.0.0.1 - - [22/Nov/2023 08:42:49] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:42:49,618 - INFO - 127.0.0.1 - - [22/Nov/2023 08:42:49] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:42:49,618 - INFO - 127.0.0.1 - - [22/Nov/2023 08:42:49] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 08:42:49,787 - INFO - 127.0.0.1 - - [22/Nov/2023 08:42:49] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-11-22 08:42:59,834 - INFO - Data received: <generator object MultiDict.values at 0x0000020ABF7B1FF0>
+2023-11-22 08:42:59,920 - INFO - Prediction: 1
+2023-11-22 08:42:59,937 - INFO - 127.0.0.1 - - [22/Nov/2023 08:42:59] "POST / HTTP/1.1" 200 -
+2023-11-22 08:43:00,029 - INFO - 127.0.0.1 - - [22/Nov/2023 08:43:00] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 08:43:00,100 - INFO - 127.0.0.1 - - [22/Nov/2023 08:43:00] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:43:00,328 - INFO - 127.0.0.1 - - [22/Nov/2023 08:43:00] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:43:00,330 - INFO - 127.0.0.1 - - [22/Nov/2023 08:43:00] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 08:43:00,499 - INFO - 127.0.0.1 - - [22/Nov/2023 08:43:00] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-11-22 08:43:11,018 - INFO - Data received: <generator object MultiDict.values at 0x0000020ABF7B6260>
+2023-11-22 08:43:11,107 - INFO - Prediction: 0
+2023-11-22 08:43:11,119 - INFO - 127.0.0.1 - - [22/Nov/2023 08:43:11] "POST / HTTP/1.1" 200 -
+2023-11-22 08:43:11,197 - INFO - 127.0.0.1 - - [22/Nov/2023 08:43:11] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 08:43:11,278 - INFO - 127.0.0.1 - - [22/Nov/2023 08:43:11] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:43:11,509 - INFO - 127.0.0.1 - - [22/Nov/2023 08:43:11] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-11-22 08:43:11,513 - INFO - 127.0.0.1 - - [22/Nov/2023 08:43:11] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:43:11,672 - INFO - 127.0.0.1 - - [22/Nov/2023 08:43:11] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 08:43:21,861 - INFO - Data received: <generator object MultiDict.values at 0x0000020ABF7B5080>
+2023-11-22 08:43:21,953 - INFO - Prediction: 1
+2023-11-22 08:43:21,966 - INFO - 127.0.0.1 - - [22/Nov/2023 08:43:21] "POST / HTTP/1.1" 200 -
+2023-11-22 08:43:22,051 - INFO - 127.0.0.1 - - [22/Nov/2023 08:43:22] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 08:43:22,110 - INFO - 127.0.0.1 - - [22/Nov/2023 08:43:22] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:43:22,368 - INFO - 127.0.0.1 - - [22/Nov/2023 08:43:22] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:43:22,369 - INFO - 127.0.0.1 - - [22/Nov/2023 08:43:22] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 08:43:22,514 - INFO - 127.0.0.1 - - [22/Nov/2023 08:43:22] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-11-22 08:43:29,328 - INFO - Data received: <generator object MultiDict.values at 0x0000020ABF7B7B90>
+2023-11-22 08:43:29,439 - INFO - Prediction: 1
+2023-11-22 08:43:29,451 - INFO - 127.0.0.1 - - [22/Nov/2023 08:43:29] "POST / HTTP/1.1" 200 -
+2023-11-22 08:43:29,523 - INFO - 127.0.0.1 - - [22/Nov/2023 08:43:29] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 08:43:29,595 - INFO - 127.0.0.1 - - [22/Nov/2023 08:43:29] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:43:29,839 - INFO - 127.0.0.1 - - [22/Nov/2023 08:43:29] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:43:29,839 - INFO - 127.0.0.1 - - [22/Nov/2023 08:43:29] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 08:43:29,978 - INFO - 127.0.0.1 - - [22/Nov/2023 08:43:29] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-11-22 08:44:44,660 - INFO - Data received: <generator object MultiDict.values at 0x0000020ABF7B6330>
+2023-11-22 08:44:44,749 - INFO - Prediction: 1
+2023-11-22 08:44:44,759 - INFO - 127.0.0.1 - - [22/Nov/2023 08:44:44] "POST / HTTP/1.1" 200 -
+2023-11-22 08:44:44,849 - INFO - 127.0.0.1 - - [22/Nov/2023 08:44:44] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 08:44:44,923 - INFO - 127.0.0.1 - - [22/Nov/2023 08:44:44] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:44:45,175 - INFO - 127.0.0.1 - - [22/Nov/2023 08:44:45] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:44:45,177 - INFO - 127.0.0.1 - - [22/Nov/2023 08:44:45] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 08:44:45,354 - INFO - 127.0.0.1 - - [22/Nov/2023 08:44:45] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-11-22 08:44:58,880 - INFO - Data received: <generator object MultiDict.values at 0x0000020ABF7B3510>
+2023-11-22 08:44:58,968 - INFO - Prediction: 1
+2023-11-22 08:44:58,979 - INFO - 127.0.0.1 - - [22/Nov/2023 08:44:58] "POST / HTTP/1.1" 200 -
+2023-11-22 08:44:59,051 - INFO - 127.0.0.1 - - [22/Nov/2023 08:44:59] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 08:44:59,143 - INFO - 127.0.0.1 - - [22/Nov/2023 08:44:59] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:44:59,358 - INFO - 127.0.0.1 - - [22/Nov/2023 08:44:59] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 08:44:59,430 - INFO - 127.0.0.1 - - [22/Nov/2023 08:44:59] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 08:44:59,585 - INFO - 127.0.0.1 - - [22/Nov/2023 08:44:59] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-11-22 08:44:59,951 - INFO - 127.0.0.1 - - [22/Nov/2023 08:44:59] "[36mGET /static/assets/pantek_logo_ico.png HTTP/1.1[0m" 304 -
+2023-11-22 09:27:57,089 - INFO - Data received: <generator object MultiDict.values at 0x0000020ABF7B06C0>
+2023-11-22 09:27:57,180 - INFO - Prediction: 1
+2023-11-22 09:27:57,187 - INFO - 127.0.0.1 - - [22/Nov/2023 09:27:57] "POST / HTTP/1.1" 200 -
+2023-11-22 09:27:57,250 - INFO - 127.0.0.1 - - [22/Nov/2023 09:27:57] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 09:27:57,350 - INFO - 127.0.0.1 - - [22/Nov/2023 09:27:57] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 09:27:57,568 - INFO - 127.0.0.1 - - [22/Nov/2023 09:27:57] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 09:27:57,677 - INFO - 127.0.0.1 - - [22/Nov/2023 09:27:57] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 09:27:57,855 - INFO - 127.0.0.1 - - [22/Nov/2023 09:27:57] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-11-22 09:29:40,851 - INFO - Data received: <generator object MultiDict.values at 0x0000020ABF7B1A40>
+2023-11-22 09:29:40,953 - INFO - Prediction: 0
+2023-11-22 09:29:40,960 - INFO - 127.0.0.1 - - [22/Nov/2023 09:29:40] "POST / HTTP/1.1" 200 -
+2023-11-22 09:29:41,048 - INFO - 127.0.0.1 - - [22/Nov/2023 09:29:41] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 09:29:41,104 - INFO - 127.0.0.1 - - [22/Nov/2023 09:29:41] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 09:29:41,369 - INFO - 127.0.0.1 - - [22/Nov/2023 09:29:41] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 09:29:41,408 - INFO - 127.0.0.1 - - [22/Nov/2023 09:29:41] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 09:29:41,581 - INFO - 127.0.0.1 - - [22/Nov/2023 09:29:41] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-11-22 09:32:59,748 - INFO - Data received: <generator object MultiDict.values at 0x0000020ABF7B64D0>
+2023-11-22 09:32:59,848 - INFO - Prediction: 0
+2023-11-22 09:32:59,860 - INFO - 127.0.0.1 - - [22/Nov/2023 09:32:59] "POST / HTTP/1.1" 200 -
+2023-11-22 09:32:59,950 - INFO - 127.0.0.1 - - [22/Nov/2023 09:32:59] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-11-22 09:32:59,996 - INFO - 127.0.0.1 - - [22/Nov/2023 09:32:59] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 09:33:00,273 - INFO - 127.0.0.1 - - [22/Nov/2023 09:33:00] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-11-22 09:33:00,300 - INFO - 127.0.0.1 - - [22/Nov/2023 09:33:00] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-11-22 09:33:00,503 - INFO - 127.0.0.1 - - [22/Nov/2023 09:33:00] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-12-06 08:43:21,870 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-06 08:43:21,870 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-06 08:43:21,878 - INFO -  * Restarting with stat
+2023-12-06 08:43:22,372 - WARNING -  * Debugger is active!
+2023-12-06 08:43:22,380 - INFO -  * Debugger PIN: 662-101-655
+2023-12-06 08:44:32,497 - INFO - 127.0.0.1 - - [06/Dec/2023 08:44:32] "GET / HTTP/1.1" 200 -
+2023-12-06 08:44:32,658 - INFO - 127.0.0.1 - - [06/Dec/2023 08:44:32] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-12-06 08:44:32,712 - INFO - 127.0.0.1 - - [06/Dec/2023 08:44:32] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-12-06 08:44:32,903 - INFO - 127.0.0.1 - - [06/Dec/2023 08:44:32] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-12-06 08:44:33,062 - INFO - 127.0.0.1 - - [06/Dec/2023 08:44:33] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-12-06 08:44:35,112 - INFO - 127.0.0.1 - - [06/Dec/2023 08:44:35] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-12-06 08:44:35,373 - INFO - 127.0.0.1 - - [06/Dec/2023 08:44:35] "GET /static/assets/pantek_logo_ico.png HTTP/1.1" 200 -
+2023-12-06 08:44:48,654 - INFO - Data received: <generator object MultiDict.values at 0x000002D3FA9E9970>
+2023-12-06 08:44:48,970 - INFO - Prediction: 1
+2023-12-06 08:44:49,010 - INFO - 127.0.0.1 - - [06/Dec/2023 08:44:49] "POST / HTTP/1.1" 200 -
+2023-12-06 08:44:49,076 - INFO - 127.0.0.1 - - [06/Dec/2023 08:44:49] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-12-06 08:44:49,389 - INFO - 127.0.0.1 - - [06/Dec/2023 08:44:49] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-12-06 08:44:49,389 - INFO - 127.0.0.1 - - [06/Dec/2023 08:44:49] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-12-06 08:44:49,393 - INFO - 127.0.0.1 - - [06/Dec/2023 08:44:49] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-12-06 08:44:49,573 - INFO - 127.0.0.1 - - [06/Dec/2023 08:44:49] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-12-06 08:44:57,826 - INFO - Data received: <generator object MultiDict.values at 0x000002D3FAA952F0>
+2023-12-06 08:44:57,949 - INFO - Prediction: 0
+2023-12-06 08:44:57,958 - INFO - 127.0.0.1 - - [06/Dec/2023 08:44:57] "POST / HTTP/1.1" 200 -
+2023-12-06 08:44:58,129 - INFO - 127.0.0.1 - - [06/Dec/2023 08:44:58] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-12-06 08:44:58,360 - INFO - 127.0.0.1 - - [06/Dec/2023 08:44:58] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-12-06 08:44:58,363 - INFO - 127.0.0.1 - - [06/Dec/2023 08:44:58] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-12-06 08:44:58,363 - INFO - 127.0.0.1 - - [06/Dec/2023 08:44:58] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-12-06 08:44:58,542 - INFO - 127.0.0.1 - - [06/Dec/2023 08:44:58] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-12-06 09:10:46,605 - INFO - Data received: <generator object MultiDict.values at 0x000002D3FAA975E0>
+2023-12-06 09:10:46,703 - INFO - Prediction: 1
+2023-12-06 09:10:46,714 - INFO - 127.0.0.1 - - [06/Dec/2023 09:10:46] "POST / HTTP/1.1" 200 -
+2023-12-06 09:10:46,781 - INFO - 127.0.0.1 - - [06/Dec/2023 09:10:46] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-12-06 09:10:46,876 - INFO - 127.0.0.1 - - [06/Dec/2023 09:10:46] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-12-06 09:10:47,091 - INFO - 127.0.0.1 - - [06/Dec/2023 09:10:47] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-12-06 09:10:47,215 - INFO - 127.0.0.1 - - [06/Dec/2023 09:10:47] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-12-06 09:10:47,384 - INFO - 127.0.0.1 - - [06/Dec/2023 09:10:47] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-12-06 09:11:13,719 - INFO - Data received: <generator object MultiDict.values at 0x000002D3FAA976B0>
+2023-12-06 09:11:13,834 - INFO - Prediction: 1
+2023-12-06 09:11:13,845 - INFO - 127.0.0.1 - - [06/Dec/2023 09:11:13] "POST / HTTP/1.1" 200 -
+2023-12-06 09:11:13,931 - INFO - 127.0.0.1 - - [06/Dec/2023 09:11:13] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-12-06 09:11:13,990 - INFO - 127.0.0.1 - - [06/Dec/2023 09:11:13] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-12-06 09:11:14,240 - INFO - 127.0.0.1 - - [06/Dec/2023 09:11:14] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-12-06 09:11:14,240 - INFO - 127.0.0.1 - - [06/Dec/2023 09:11:14] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-12-06 09:11:14,426 - INFO - 127.0.0.1 - - [06/Dec/2023 09:11:14] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-12-06 09:11:48,999 - INFO - Data received: <generator object MultiDict.values at 0x000002D3FAA95E50>
+2023-12-06 09:11:49,087 - INFO - Prediction: 0
+2023-12-06 09:11:49,097 - INFO - 127.0.0.1 - - [06/Dec/2023 09:11:49] "POST / HTTP/1.1" 200 -
+2023-12-06 09:11:49,159 - INFO - 127.0.0.1 - - [06/Dec/2023 09:11:49] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-12-06 09:11:49,260 - INFO - 127.0.0.1 - - [06/Dec/2023 09:11:49] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-12-06 09:11:49,482 - INFO - 127.0.0.1 - - [06/Dec/2023 09:11:49] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-12-06 09:11:49,484 - INFO - 127.0.0.1 - - [06/Dec/2023 09:11:49] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-12-06 09:11:49,643 - INFO - 127.0.0.1 - - [06/Dec/2023 09:11:49] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-12-06 09:12:04,562 - INFO - Data received: <generator object MultiDict.values at 0x000002D3FAA97B90>
+2023-12-06 09:12:04,648 - INFO - Prediction: 1
+2023-12-06 09:12:04,658 - INFO - 127.0.0.1 - - [06/Dec/2023 09:12:04] "POST / HTTP/1.1" 200 -
+2023-12-06 09:12:04,735 - INFO - 127.0.0.1 - - [06/Dec/2023 09:12:04] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-12-06 09:12:04,823 - INFO - 127.0.0.1 - - [06/Dec/2023 09:12:04] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-12-06 09:12:05,056 - INFO - 127.0.0.1 - - [06/Dec/2023 09:12:05] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-12-06 09:12:05,063 - INFO - 127.0.0.1 - - [06/Dec/2023 09:12:05] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-12-06 09:12:05,232 - INFO - 127.0.0.1 - - [06/Dec/2023 09:12:05] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-12-06 09:20:02,106 - INFO - Data received: <generator object MultiDict.values at 0x000002D3FAA94040>
+2023-12-06 09:20:02,200 - INFO - Prediction: 1
+2023-12-06 09:20:02,213 - INFO - 127.0.0.1 - - [06/Dec/2023 09:20:02] "POST / HTTP/1.1" 200 -
+2023-12-06 09:20:02,282 - INFO - 127.0.0.1 - - [06/Dec/2023 09:20:02] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-12-06 09:20:02,608 - INFO - 127.0.0.1 - - [06/Dec/2023 09:20:02] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-12-06 09:20:02,612 - INFO - 127.0.0.1 - - [06/Dec/2023 09:20:02] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-12-06 09:20:02,656 - INFO - 127.0.0.1 - - [06/Dec/2023 09:20:02] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-12-06 09:20:02,858 - INFO - 127.0.0.1 - - [06/Dec/2023 09:20:02] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-12-06 09:20:12,900 - INFO - Data received: <generator object MultiDict.values at 0x000002D3FAA97100>
+2023-12-06 09:20:13,024 - INFO - Prediction: 1
+2023-12-06 09:20:13,038 - INFO - 127.0.0.1 - - [06/Dec/2023 09:20:13] "POST / HTTP/1.1" 200 -
+2023-12-06 09:20:13,210 - INFO - 127.0.0.1 - - [06/Dec/2023 09:20:13] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-12-06 09:20:13,428 - INFO - 127.0.0.1 - - [06/Dec/2023 09:20:13] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-12-06 09:20:13,431 - INFO - 127.0.0.1 - - [06/Dec/2023 09:20:13] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-12-06 09:20:13,431 - INFO - 127.0.0.1 - - [06/Dec/2023 09:20:13] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-12-06 09:20:13,580 - INFO - 127.0.0.1 - - [06/Dec/2023 09:20:13] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-12-06 09:20:26,242 - INFO - Data received: <generator object MultiDict.values at 0x000002D3FAA98450>
+2023-12-06 09:20:26,341 - INFO - Prediction: 1
+2023-12-06 09:20:26,352 - INFO - 127.0.0.1 - - [06/Dec/2023 09:20:26] "POST / HTTP/1.1" 200 -
+2023-12-06 09:20:26,436 - INFO - 127.0.0.1 - - [06/Dec/2023 09:20:26] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-12-06 09:20:26,512 - INFO - 127.0.0.1 - - [06/Dec/2023 09:20:26] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-12-06 09:20:26,761 - INFO - 127.0.0.1 - - [06/Dec/2023 09:20:26] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-12-06 09:20:26,765 - INFO - 127.0.0.1 - - [06/Dec/2023 09:20:26] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-12-06 09:20:26,918 - INFO - 127.0.0.1 - - [06/Dec/2023 09:20:26] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-12-06 09:20:41,085 - INFO - Data received: <generator object MultiDict.values at 0x000002D3FAA968E0>
+2023-12-06 09:20:41,172 - INFO - Prediction: 1
+2023-12-06 09:20:41,180 - INFO - 127.0.0.1 - - [06/Dec/2023 09:20:41] "POST / HTTP/1.1" 200 -
+2023-12-06 09:20:41,248 - INFO - 127.0.0.1 - - [06/Dec/2023 09:20:41] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-12-06 09:20:41,351 - INFO - 127.0.0.1 - - [06/Dec/2023 09:20:41] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-12-06 09:20:41,564 - INFO - 127.0.0.1 - - [06/Dec/2023 09:20:41] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-12-06 09:20:41,565 - INFO - 127.0.0.1 - - [06/Dec/2023 09:20:41] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-12-06 09:20:41,794 - INFO - 127.0.0.1 - - [06/Dec/2023 09:20:41] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-12-06 09:20:59,865 - INFO - Data received: <generator object MultiDict.values at 0x000002D3FAA952F0>
+2023-12-06 09:20:59,964 - INFO - Prediction: 1
+2023-12-06 09:20:59,972 - INFO - 127.0.0.1 - - [06/Dec/2023 09:20:59] "POST / HTTP/1.1" 200 -
+2023-12-06 09:21:00,052 - INFO - 127.0.0.1 - - [06/Dec/2023 09:21:00] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-12-06 09:21:00,120 - INFO - 127.0.0.1 - - [06/Dec/2023 09:21:00] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-12-06 09:21:00,375 - INFO - 127.0.0.1 - - [06/Dec/2023 09:21:00] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-12-06 09:21:00,376 - INFO - 127.0.0.1 - - [06/Dec/2023 09:21:00] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-12-06 09:21:00,580 - INFO - 127.0.0.1 - - [06/Dec/2023 09:21:00] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-12-06 09:21:38,198 - INFO - Data received: <generator object MultiDict.values at 0x000002D3FAA886C0>
+2023-12-06 09:21:38,335 - INFO - Prediction: 0
+2023-12-06 09:21:38,343 - INFO - 127.0.0.1 - - [06/Dec/2023 09:21:38] "POST / HTTP/1.1" 200 -
+2023-12-06 09:21:38,410 - INFO - 127.0.0.1 - - [06/Dec/2023 09:21:38] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-12-06 09:21:38,455 - INFO - 127.0.0.1 - - [06/Dec/2023 09:21:38] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-12-06 09:21:38,720 - INFO - 127.0.0.1 - - [06/Dec/2023 09:21:38] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-12-06 09:21:38,723 - INFO - 127.0.0.1 - - [06/Dec/2023 09:21:38] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-12-06 09:21:38,956 - INFO - 127.0.0.1 - - [06/Dec/2023 09:21:38] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-12-10 20:35:07,513 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-10 20:35:07,514 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-10 20:35:07,520 - INFO -  * Restarting with stat
+2023-12-10 20:35:07,911 - WARNING -  * Debugger is active!
+2023-12-10 20:35:07,929 - INFO -  * Debugger PIN: 338-458-356
+2023-12-10 20:35:13,696 - INFO - 127.0.0.1 - - [10/Dec/2023 20:35:13] "GET / HTTP/1.1" 200 -
+2023-12-10 20:35:13,781 - INFO - 127.0.0.1 - - [10/Dec/2023 20:35:13] "GET /static/index.css HTTP/1.1" 200 -
+2023-12-10 20:35:13,899 - INFO - 127.0.0.1 - - [10/Dec/2023 20:35:13] "GET /static/assets/pantek_logo.png HTTP/1.1" 200 -
+2023-12-10 20:35:14,049 - INFO - 127.0.0.1 - - [10/Dec/2023 20:35:14] "GET /static/assets/pantek_hero_logo.png HTTP/1.1" 200 -
+2023-12-10 20:35:14,366 - INFO - 127.0.0.1 - - [10/Dec/2023 20:35:14] "GET /static/index.js HTTP/1.1" 200 -
+2023-12-10 20:35:14,618 - INFO - 127.0.0.1 - - [10/Dec/2023 20:35:14] "GET /static/assets/bg_pattern.png HTTP/1.1" 200 -
+2023-12-10 20:35:14,686 - INFO - 127.0.0.1 - - [10/Dec/2023 20:35:14] "GET /static/index.js HTTP/1.1" 200 -
+2023-12-10 20:35:39,232 - INFO - Data received: <generator object MultiDict.values at 0x000001C83B005490>
+2023-12-10 20:35:39,346 - INFO - Prediction: 0
+2023-12-10 20:35:39,366 - INFO - 127.0.0.1 - - [10/Dec/2023 20:35:39] "POST / HTTP/1.1" 200 -
+2023-12-10 20:35:39,390 - INFO - 127.0.0.1 - - [10/Dec/2023 20:35:39] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-12-10 20:35:39,709 - INFO - 127.0.0.1 - - [10/Dec/2023 20:35:39] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-12-10 20:35:39,709 - INFO - 127.0.0.1 - - [10/Dec/2023 20:35:39] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-12-10 20:35:39,710 - INFO - 127.0.0.1 - - [10/Dec/2023 20:35:39] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-12-10 20:35:39,721 - INFO - 127.0.0.1 - - [10/Dec/2023 20:35:39] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-12-10 20:35:39,771 - INFO - 127.0.0.1 - - [10/Dec/2023 20:35:39] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-12-10 20:36:19,694 - INFO - Data received: <generator object MultiDict.values at 0x000001C83B007AC0>
+2023-12-10 20:36:19,748 - INFO - Prediction: 1
+2023-12-10 20:36:19,753 - INFO - 127.0.0.1 - - [10/Dec/2023 20:36:19] "POST / HTTP/1.1" 200 -
+2023-12-10 20:36:20,007 - INFO - 127.0.0.1 - - [10/Dec/2023 20:36:20] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-12-10 20:36:20,101 - INFO - 127.0.0.1 - - [10/Dec/2023 20:36:20] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-12-10 20:36:20,102 - INFO - 127.0.0.1 - - [10/Dec/2023 20:36:20] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-12-10 20:36:20,103 - INFO - 127.0.0.1 - - [10/Dec/2023 20:36:20] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-12-10 20:36:20,317 - INFO - 127.0.0.1 - - [10/Dec/2023 20:36:20] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-12-10 20:36:20,411 - INFO - 127.0.0.1 - - [10/Dec/2023 20:36:20] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-12-11 08:12:11,891 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-11 08:12:11,895 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-11 08:12:11,909 - INFO -  * Restarting with stat
+2023-12-11 08:12:13,009 - WARNING -  * Debugger is active!
+2023-12-11 08:12:13,033 - INFO -  * Debugger PIN: 549-875-250
+2023-12-11 08:12:21,220 - INFO - 127.0.0.1 - - [11/Dec/2023 08:12:21] "GET / HTTP/1.1" 200 -
+2023-12-11 08:12:21,448 - INFO - 127.0.0.1 - - [11/Dec/2023 08:12:21] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-12-11 08:12:21,497 - INFO - 127.0.0.1 - - [11/Dec/2023 08:12:21] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-12-11 08:12:21,645 - INFO - 127.0.0.1 - - [11/Dec/2023 08:12:21] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-12-11 08:12:21,934 - INFO - 127.0.0.1 - - [11/Dec/2023 08:12:21] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-12-11 08:12:22,223 - INFO - 127.0.0.1 - - [11/Dec/2023 08:12:22] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-12-11 08:25:13,881 - INFO - Data received: <generator object MultiDict.values at 0x00000160EF4864D0>
+2023-12-11 08:25:14,096 - INFO - Prediction: 0
+2023-12-11 08:25:14,135 - INFO - 127.0.0.1 - - [11/Dec/2023 08:25:14] "POST / HTTP/1.1" 200 -
+2023-12-11 08:25:14,180 - INFO - 127.0.0.1 - - [11/Dec/2023 08:25:14] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-12-11 08:25:14,187 - INFO - 127.0.0.1 - - [11/Dec/2023 08:25:14] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-12-11 08:25:14,496 - INFO - 127.0.0.1 - - [11/Dec/2023 08:25:14] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-12-11 08:25:14,513 - INFO - 127.0.0.1 - - [11/Dec/2023 08:25:14] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-12-11 08:25:14,778 - INFO - 127.0.0.1 - - [11/Dec/2023 08:25:14] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
+2023-12-11 08:29:04,694 - INFO - Data received: <generator object MultiDict.values at 0x00000160EF485F20>
+2023-12-11 08:29:04,823 - INFO - Prediction: 1
+2023-12-11 08:29:04,940 - INFO - 127.0.0.1 - - [11/Dec/2023 08:29:04] "POST / HTTP/1.1" 200 -
+2023-12-11 08:29:04,988 - INFO - 127.0.0.1 - - [11/Dec/2023 08:29:04] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2023-12-11 08:29:04,999 - INFO - 127.0.0.1 - - [11/Dec/2023 08:29:04] "[36mGET /static/assets/pantek_logo.png HTTP/1.1[0m" 304 -
+2023-12-11 08:29:05,301 - INFO - 127.0.0.1 - - [11/Dec/2023 08:29:05] "[36mGET /static/assets/pantek_hero_logo.png HTTP/1.1[0m" 304 -
+2023-12-11 08:29:05,321 - INFO - 127.0.0.1 - - [11/Dec/2023 08:29:05] "[36mGET /static/index.js HTTP/1.1[0m" 304 -
+2023-12-11 08:29:05,652 - INFO - 127.0.0.1 - - [11/Dec/2023 08:29:05] "[36mGET /static/assets/bg_pattern.png HTTP/1.1[0m" 304 -
