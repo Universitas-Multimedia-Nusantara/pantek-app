@@ -6,28 +6,61 @@
 
     <title>{% block title %} {% endblock %}</title>
 
-    <link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='./assets/pantek_logo_ico.png') }}" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="{{ url_for('static', filename='./assets/pantek_logo_ico.png') }}"
+    />
 
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.1.1/flowbite.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='index.css') }}"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.1.1/flowbite.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="w-full h-[60vh] md:h-[60vh] bg-top bg-no-repeat bg-[url('../static/assets/bg_pattern.png')] bg-cover xl:bg-contain absolute z-[-1]"></div>
-    <nav class="fixed w-full z-20 top-0 start-0 border-b border-gray-200 bg-white backdrop-blur-[26px]">
-      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
-          <img class="w-[135px] lg:w-[187px]" src="{{ url_for('static', filename='assets/pantek_logo.png') }}" class="h-8" alt="Flowbite Logo" />
+    <div
+      class="w-full h-[60vh] md:h-[60vh] bg-top bg-no-repeat bg-[url('../static/assets/bg_pattern.png')] bg-cover xl:bg-contain absolute z-[-1]"
+    ></div>
+    <nav
+      class="fixed w-full z-20 top-0 start-0 border-b border-gray-200 bg-white backdrop-blur-[26px]"
+    >
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <a
+          href="https://flowbite.com/"
+          class="flex items-center space-x-3 rtl:space-x-reverse"
+        >
+          <img
+            class="w-[135px] lg:w-[187px]"
+            src="{{ url_for('static', filename='assets/pantek_logo.png') }}"
+            class="h-8"
+            alt="Flowbite Logo"
+          />
         </a>
       </div>
     </nav>
 
-    <div class="w-full xl:container mx-auto mt-[4em]">{% block content %} {% endblock %}</div>
+    <div class="w-full xl:container mx-auto mt-[4em]">
+      {% block content %} {% endblock %}
+    </div>
 
     <div class="w-full text-center my-[1em]">Made with ❤️ by Kelompok C06</div>
 
-    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="{{ url_for('static', filename='index.js') }}"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+      integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="{{ url_for('static', filename='index.js') }}"
+    ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.1.1/flowbite.min.js"></script>
   </body>
 </html>
